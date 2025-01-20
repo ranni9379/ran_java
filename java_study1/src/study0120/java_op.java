@@ -17,18 +17,21 @@ public class java_op {
 		
 		
 		// 자바에서 결과로 출력 하는 방법
-		System.out.println("출력하는 방법");
+//		System.out.println("출력하는 방법");
 		// 자바에서 키보드를 통해 데이터 입력하는 방법
 		// 자바에서 입력하기 위한 순서
 		// 1. 입력 객체 생성
 		// 2. 입력 객체를 통해 데이터에 맞는 입력메서드 호출
 		
 		// Scanner 변수이름 = new Scanner(System.in);
-		Scanner input = new Scanner(System.in); //클래스이름 뒤에다가 변수이름
+//		Scanner input = new Scanner(System.in); //클래스이름 뒤에다가 변수이름
 		
 		//num 이라는 변수에 정수 데이터입력하여 저장하기
 		//nextInt() 가 정수데이터 입력하기 이한 메서드이다.
-		int num = input.nextInt();
+//		int num = input.nextInt();
+		
+
+		
 	}
 
 }
