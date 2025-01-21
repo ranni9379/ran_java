@@ -24,12 +24,31 @@ public class java_op {
 		// 2. 입력 객체를 통해 데이터에 맞는 입력메서드 호출
 		
 		// Scanner 변수이름 = new Scanner(System.in);
-//		Scanner input = new Scanner(System.in); //클래스이름 뒤에다가 변수이름
+		
+		Scanner sc= new Scanner(System.in); //클래스이름 뒤에다가 변수이름
 		
 		//num 이라는 변수에 정수 데이터입력하여 저장하기
 		//nextInt() 가 정수데이터 입력하기 이한 메서드이다.
-//		int num = input.nextInt();
+//		int num = input.nextInt(); => nextInt()는 고정값
 		
+//		System.out.println("정수입력:");
+//		int num = sc.nextInt();
+		
+//		System.out.println("입력잘되었나?" + num);
+		
+		// 사각형 너비와 높이를 키보드를 통해 입력받고
+		// 넓이를 계산하여 출력하세요.
+		
+		int width=0, height=0; //초기값으로 0을 넣어주면 좋다//
+		System.out.print("너비입력:"); //만약 System.out.println이면 ("너비입력:") 너비입력 밑에 값이 출력
+		width = sc.nextInt();
+		System.out.print("높이입력:");
+		height = sc.nextInt();
+		// 사각형 넓이 구하기
+		int area = width * height;
+		System.out.println("사각형넓이:"+area);
+		
+
 
 		
 	}

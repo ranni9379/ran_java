@@ -7,17 +7,20 @@ public class homework {
 
 	
 		int apple=20;
-		int applebox=11;
+		int appleBox=11;
 		
-		int totalapple = apple * applebox;
+		int totalApple = apple * appleBox;
 		
 		int orange=15;
-		int orangebox=12;
+		int orangeBox=12;
 		
-		int totalorange = orange * orangebox;
+		int totalOrange = orange * orangeBox;
 		
-		int totalnumber= totalapple + totalorange;
-		System.out.println("과일 총 갯수:" + totalnumber);
-	}
+		int totalFruit= totalApple + totalOrange;
+		
+		System.out.println("사과 총 갯수:" + totalApple);
+		System.out.println("오렌지 총 갯수:" + totalOrange);
+		System.out.println("과일 총 갯수:" + totalFruit);
+	} 
 
 }
