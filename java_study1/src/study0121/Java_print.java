@@ -16,9 +16,10 @@ public class Java_print {
 		System.out.printf("%%"); // %를 한번하면 오류 %% 두번 써야 %로 출력
 		
 		// 형식 지정자를 사용하기 위해 주의 할것
-		//1. 형식지정자와 데이터 위치를 맞워야 한다.
+		//1. 형식 지정자와 데이터 위치를 맞워야 한다.
 		System.out.printf("%d %f", 100, 3.14);
 		//2. 형식 지정자와 데이터 갯수 맞추기
+		
 		System.out.printf(" %d %d %d ", 10,20,30);
 		System.out.println(2025 + "년" + 1+"월" + 21+"일");
 		System.out.printf("%d년 %d월 %d일 \n",2025,1,21);
