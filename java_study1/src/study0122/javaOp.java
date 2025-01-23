@@ -45,7 +45,7 @@ public class javaOp {
 				
 		dist = (int)(r*2*3.14); //강제형변환
 //		데이터 이동 시, 타입의 범위가 큰쪽에서 작은쪽으로 갈때 타입 변환 해야함.
-		System.out.println(" 원의 둘레 : " + dist);
+		System.out.println(" 원의 둘레 : " + dist); 
 	}
 
 }

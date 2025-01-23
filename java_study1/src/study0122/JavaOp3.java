@@ -51,12 +51,17 @@ public class JavaOp3 {
 //	true <= 190
 //	
 	// 청소년 버스요금은 1000원이다. (청소년은 13세부터 19세)
-	// 나이를 입력받아서 청소년 이면 false 아니면 true가 출력 되게 하세요
+	// 나이를 입력받아서 청소년 이면 false 아니면 true가 출력 되게 하세요.
+//		반대의 경우에는 System.out.println(!(age<13 || age>19));
+		
 	int age=0;
 	System.out.print("나이 : ");
 	age = scan.nextInt();
 	System.out.println(age<13 || age>19);
-	
+	 
+	// 조건식 - 비교연산자와 논리 연산자를 사용하여 만든식
+	// 조건식 만드는 연습 하셔야 해요
+	// total > conunt
 	}
 
 }
