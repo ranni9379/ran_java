@@ -1,5 +1,7 @@
 package study0203;
 
+import java.util.Scanner;
+
 public class javaSwitch1 {
 
 	public static void main(String[] args) {
@@ -63,24 +65,24 @@ public class javaSwitch1 {
  }
 */
 		
-		int 점수 =79;
-		switch(점수/10) {
-		case 10:
-		case 9:
-			System.out.println("A학점");
-			break;
-		case 8:
-			System.out.println("B학점");
-			break;
-		case 7:
-			System.out.println("C학점");
-			break;
-		default:
-			System.out.println("F학점");
-		}
-	}
-
-}
+//		int 점수 =79;
+//		switch(점수/10) {
+//		case 10:
+//		case 9:
+//			System.out.println("A학점");
+//			break;
+//		case 8:
+//			System.out.println("B학점");
+//			break;
+//		case 7:
+//			System.out.println("C학점");
+//			break;
+//		default:
+//			System.out.println("F학점");
+//		}
+//	}
+//
+//}
 
 
 /*
@@ -91,3 +93,19 @@ public class javaSwitch1 {
 내가 이겼는지, 졌는지, 비겼는지 출력
 
  */
+Scanner sc = new Scanner(System.in);
+
+
+int user=0, game=0;
+System.out.println("1.가위 2. 바위 3. 보:");
+user = sc.nextInt();
+
+game = (int)(Math.random()*3+1);
+if (user == game) {
+    System.out.println("비겼습니다!");
+} else if ((user == 1 && game == 2) || (user == 2 && game == 1) || (user == 3 && game == 1)) {
+	System.out.println("이겼습니다!");
+} else {	System.out.println("졌습니다!");
+}
+}
+}
