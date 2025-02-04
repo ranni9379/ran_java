@@ -106,6 +106,5 @@ if (user == game) {
 } else if ((user == 1 && game == 2) || (user == 2 && game == 1) || (user == 3 && game == 1)) {
 	System.out.println("이겼습니다!");
 } else {	System.out.println("졌습니다!");
-}
-}
+}}
 }
