@@ -76,7 +76,7 @@ public class Javatest2 {
 		 */
 		
 		//for문 17~150 출력 - if 짝수만 출력
-		Scanner sc = new Scanner (System.in);
+	
 //
 //		for(int a=17; a<=150; a++) {
 //			if(a%2==0)
@@ -111,27 +111,33 @@ public class Javatest2 {
 		// 문제 7. 알파벳찾기(반드시 반복문 사용해서)
 //		알파벳(대문자 또는 소문자 모두 가능하게) 입력
 //		입력한 알파벳이 몇번째 알파벳인지 찾기 - 반드시 for문으로
-		
+		Scanner sc = new Scanner (System.in);
+		System.out.print("알파벳 입력 : ");
+		char alp = sc.nextLine().charAt(0);
+		//아스키 코드에서 A-64(10진수), a- 97(10진수)
+		for(int i= 1; i<=26; i++) {
+			if(alp==(i+64) || alp==(i+96)) {
+				System.out.printf("알파벳 %c 는 %d번째 알파벳\n", alp, i);
+				break;
+			}
+		}
 		
 		
 		
 		
 		//	1~50 랜덤값 중 짝수가 5개 나올때 까지 반복 무한루프
-	int b=0, a=0;
-		while(true) {
-			
-			b= (int)(Math.random()*50+1);
-			if((b%2)==0) {
-				System.out.println(b+"");
-			    a++;
-			    if (a==5) {
-					
-					break;}
+//	int b=0, a=0;
+//		while(true) {
+//			
+//			b= (int)(Math.random()*50+1);
+//			if((b%2)==0) {
+//				System.out.println(b+"");
+//			    a++;
+//			    if (a==5) {
+//					
+//					break;}
 			 
-			}
-			
-		
-		}
+	
 	
 		
 		}
