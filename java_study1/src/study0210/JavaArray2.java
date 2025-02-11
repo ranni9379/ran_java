@@ -142,11 +142,26 @@ public class JavaArray2 {
 //		15개 전부 저장되면 배열 출력하시오.
 //		숫자 중복 상관없음
 		
-		int[] num =new int[] {10,20,30,40,50,60,70,80,90,100};
+		int b=0, a=0;
+		while(true) {
+			
+			b= (int)(Math.random()*50+1);
+			if((b%2)==0) {
+				System.out.println(b+"");
+			    a++;
+			    if (a==5) {
+					
+					break;}
+				
+					System.out.println(int );
 		
-		for(int a :num) {
-			System.out.println(a);
-		}
+		
+		
+//		int[] num =new int[] {10,20,30,40,50,60,70,80,90,100};
+//		
+//		for(int a :num) {
+//			System.out.println(a);
+//		}
 //		for(int i=0; i<num.length; i++) {
 //			System.out.println(num[i]);
 //		}
