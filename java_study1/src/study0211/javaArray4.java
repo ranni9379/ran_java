@@ -15,7 +15,7 @@ public class javaArray4 {
 			game[i] = (int)(Math.random()*50+1);
 //		System.out.println(Arrays.toString(game));
 
-//		System.out.println("┌────┬────┬───┬───┐");
+//		System.out.println("┌───┬───┬───┬───┐");
 		// 5줄 5칸 출력
 		
 		while(true) {
@@ -36,6 +36,7 @@ public class javaArray4 {
 				game[i]=0;
 			}
 		}
+		// 빙고게임은 5줄 빙고 되면 종료
 		}
 	}
 
