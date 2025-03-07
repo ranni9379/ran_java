@@ -18,8 +18,8 @@ public ArrayList<Member> select(){
        while(rs.next()) {
           Member m = new Member(rs.getLong("id"),
                 rs.getString("member_id"), rs.getString("email"), 
-                rs.getString("password"), rs.getString("birth") 
-                );
+                rs.getString("password"), rs.getString("birth"), 
+                (int)(Math.random()*21 +20));
           
           list.add(m);
           
