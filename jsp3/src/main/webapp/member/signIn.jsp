@@ -11,7 +11,7 @@
 <link rel="icon" href="http://localhost:8080/jsp3/static/images/무민러브.ico">
 <link rel="stylesheet" href="http://localhost:8080/jsp3/static/css/defalt.css">
 <link rel="stylesheet" href="http://localhost:8080/jsp3/static/css/signIn.css">
-<script src="http://lacalhost:8080/jsp3/static/javascript/signIn.js"></script>
+<script src="http://localhost:8080/jsp3/static/javascript/signIn.js"></script>
 </head>
 <body>
 
@@ -26,7 +26,7 @@
 			</p>
 			
 			<div id="formWrap">
-			<form id="fm" name="fm" role="form" method="post" action="./signInCheck.jsp">
+			<form id="fm" name="fm" role="form" method="post" action="signin">
 				<div class="input-field">
 					<label for="userId">아이디</label>
 					<input type="text" name="userId" id="userId">
